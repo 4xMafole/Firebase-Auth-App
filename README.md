@@ -1,16 +1,27 @@
-# firebase_auth_getx
+# Firebase Auth App
 
-A new Flutter project.
+### This is a simple flutter app showcasing firebase authentication using <b>Email</b> and <b>Password</b>.
+<br>
 
-## Getting Started
+## Features
+<ul> 
+    <li><b>GET-X</b> for state management and routing</li>
+</ul>
+</br>
 
-This project is a starting point for a Flutter application.
+## Preview
+### Source code is available as per designs below.
+</br>
+<img src="./screenshots/signup.png" width = "200" alt="Sign Up Screen">
+<img src="./screenshots/login.png" width = "200" alt="Login Screen">
+<img src="./screenshots/welcome.png" width = "200" alt="Welcome screen">
 
-A few resources to get you started if this is your first Flutter project:
+<br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Contribution
+Please fork this repository and contribute back using [pull requests](https://github.com/4xMafole/beem-android-client/pulls).
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Any contributions, large or small, major features, bug fixes, are all welcomed and appreciated but will be thoroughly reviewed.
+
+### Contact - Let's become friends
+- [![Twitter](https://img.shields.io/twitter/url?label=Twitter%20%404xMafole&style=social&url=https%3A%2F%2Ftwitter.com%2F4xmafole)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Ftwitter.com%2F4xmafole)
