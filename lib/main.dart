@@ -1,4 +1,5 @@
 import 'package:firebase_auth_getx/login_page.dart';
+import 'package:firebase_auth_getx/signup_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: SignUpPage(),
     );
   }
 }
