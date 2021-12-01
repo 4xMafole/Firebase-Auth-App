@@ -19,7 +19,7 @@
 <br>
 
 ## Contribution
-Please fork this repository and contribute back using [pull requests](https://github.com/4xMafole/beem-android-client/pulls).
+Please fork this repository and contribute back using [pull requests](https://github.com/4xMafole/Firebase-Auth-App/pulls).
 
 Any contributions, large or small, major features, bug fixes, are all welcomed and appreciated but will be thoroughly reviewed.
 
