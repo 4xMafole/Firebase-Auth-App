@@ -1,4 +1,7 @@
+import 'package:firebase_auth_getx/login_page.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SignUpPage extends StatelessWidget {
   const SignUpPage({Key? key}) : super(key: key);
@@ -159,6 +162,20 @@ class SignUpPage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 15,
+          ),
+          RichText(
+            text: TextSpan(
+              recognizer: TapGestureRecognizer()
+                ..onTap = () => Get.to(() => LoginPage()),
+              text: "Have an account?",
+              style: TextStyle(
+                color: Colors.grey.shade500,
+                fontSize: 20,
               ),
             ),
           ),

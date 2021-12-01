@@ -1,4 +1,7 @@
+import 'package:firebase_auth_getx/signup_page.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -190,6 +193,8 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 children: [
                   TextSpan(
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () => Get.to(() => SignUpPage()),
                     text: "\tCreate",
                     style: TextStyle(
                       color: Colors.black,
